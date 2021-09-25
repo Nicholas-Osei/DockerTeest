@@ -24,4 +24,4 @@ steps:
     containerRegistry: 'TestContainer'
     repository: 'TestRepo'
     command: 'buildAndPush'
-    Dockerfile: '**/Dockerfile'
+    Dockerfile: 'dockerfile'
