@@ -1,8 +1,8 @@
-FROM node:alpine
+From node:alpine
 
 COPY ./ ./
 
-RUN npm install
+RUN npm install 
 
 EXPOSE 8080
 
