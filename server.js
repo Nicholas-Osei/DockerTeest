@@ -14,4 +14,4 @@ app.get('/', (req,res)=> {
 })
 
 //app.listen(8080, () => console.log('Server ready'))
-app.listen(process.env.PORT || 3000, () => console.log('server ready'))
+app.listen(process.env.PORT || 8080, () => console.log('server ready'),console.log(process.env.PORT))

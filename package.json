@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "azure-cli": "^0.10.20",
     "express": "^4.17.1"
   }
 }
